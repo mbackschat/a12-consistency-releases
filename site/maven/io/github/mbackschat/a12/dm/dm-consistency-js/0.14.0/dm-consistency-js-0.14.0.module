@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dm-consistency/0.14.0/dm-consistency-0.14.0.module",
+    "group": "io.github.mbackschat.a12.dm",
+    "module": "dm-consistency",
+    "version": "0.14.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.github.mbackschat.a12.dm",
+          "module": "dm-predicates",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consistency-js-0.14.0.klib",
+          "url": "dm-consistency-js-0.14.0.klib",
+          "size": 1679723,
+          "sha512": "3482e06ab15cbf5fbde3b8577228252bb8b07e857e6f375849e27ac94acc9fa218a757d44f8d09a5db0d831786efb935dd38beb02e8478a6cc85389bfc042771",
+          "sha256": "a7b1557e27a48bcfe02d93024d39efe3a1d4e3dbfcdba8fbccd72477ef77a9be",
+          "sha1": "e9df35127b59ec3c3159c9cc423f97990772ff8d",
+          "md5": "8e1f67cb7f57b4dfb94706982365746f"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.github.mbackschat.a12.dm",
+          "module": "dm-predicates",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consistency-js-0.14.0.klib",
+          "url": "dm-consistency-js-0.14.0.klib",
+          "size": 1679723,
+          "sha512": "3482e06ab15cbf5fbde3b8577228252bb8b07e857e6f375849e27ac94acc9fa218a757d44f8d09a5db0d831786efb935dd38beb02e8478a6cc85389bfc042771",
+          "sha256": "a7b1557e27a48bcfe02d93024d39efe3a1d4e3dbfcdba8fbccd72477ef77a9be",
+          "sha1": "e9df35127b59ec3c3159c9cc423f97990772ff8d",
+          "md5": "8e1f67cb7f57b4dfb94706982365746f"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "consistency-js-0.14.0-sources.jar",
+          "url": "dm-consistency-js-0.14.0-sources.jar",
+          "size": 664229,
+          "sha512": "5dcf3e4afb0787b34baf013ae75841b00f6d6ed20637d4c9397480024783a1c4d2f9a12550f98a062718fbd65607e1c49abebcabab388a8175655991e51df6ed",
+          "sha256": "f6bced07cf669c6caa0b144acfc41a34acc639e74761c77f5b55dbe989b550d8",
+          "sha1": "08472125921e369ffc53e9a76e6eab87ba043eb1",
+          "md5": "112e0ffe3bfef0b67276afbd25fe1435"
+        }
+      ]
+    }
+  ]
+}

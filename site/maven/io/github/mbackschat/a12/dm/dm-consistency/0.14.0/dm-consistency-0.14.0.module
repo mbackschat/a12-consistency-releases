@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mbackschat.a12.dm",
+    "module": "dm-consistency",
+    "version": "0.14.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mbackschat.a12.dm",
+          "module": "dm-predicates",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consistency-metadata-0.14.0.jar",
+          "url": "dm-consistency-0.14.0.jar",
+          "size": 185358,
+          "sha512": "745a3399d66340227317ddc101b50bdae26c5cec6e2b96e93d3dd2452841238ce393515ecc945707e882d7e52f197a8d58b93c4d302cc1e4c09964648b1760db",
+          "sha256": "a4a8a7231ee682256bccd1295c977c135e49c67a6417212f0e771516cc325ba3",
+          "sha1": "d6cb15f3b09d3cb1dc9c85548ceaf9811cf357d8",
+          "md5": "630f2eca7ca71d2ba39376110a0e085c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "consistency-kotlin-0.14.0-sources.jar",
+          "url": "dm-consistency-0.14.0-sources.jar",
+          "size": 658942,
+          "sha512": "3f27e0f77d5dc34a34594192b9d30efa21735062fb64950667d9fefce19fee39a34e69c3535855f34b02e7d3507fcfa7b88961454a0964f1ddad521887336a14",
+          "sha256": "9094d9410254b0847fc0bba0c52b5ca216ebf8ae234334939af260e820d37e63",
+          "sha1": "065b50ab93613850dcba1373ac399802f676fe6a",
+          "md5": "1e2ddb2d8041b05dae00ccd457f3b173"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../dm-consistency-js/0.14.0/dm-consistency-js-0.14.0.module",
+        "group": "io.github.mbackschat.a12.dm",
+        "module": "dm-consistency-js",
+        "version": "0.14.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../dm-consistency-js/0.14.0/dm-consistency-js-0.14.0.module",
+        "group": "io.github.mbackschat.a12.dm",
+        "module": "dm-consistency-js",
+        "version": "0.14.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../dm-consistency-js/0.14.0/dm-consistency-js-0.14.0.module",
+        "group": "io.github.mbackschat.a12.dm",
+        "module": "dm-consistency-js",
+        "version": "0.14.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dm-consistency-jvm/0.14.0/dm-consistency-jvm-0.14.0.module",
+        "group": "io.github.mbackschat.a12.dm",
+        "module": "dm-consistency-jvm",
+        "version": "0.14.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dm-consistency-jvm/0.14.0/dm-consistency-jvm-0.14.0.module",
+        "group": "io.github.mbackschat.a12.dm",
+        "module": "dm-consistency-jvm",
+        "version": "0.14.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dm-consistency-jvm/0.14.0/dm-consistency-jvm-0.14.0.module",
+        "group": "io.github.mbackschat.a12.dm",
+        "module": "dm-consistency-jvm",
+        "version": "0.14.0"
+      }
+    }
+  ]
+}
